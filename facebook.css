@@ -1,0 +1,266 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px dashed red; */
+}
+
+section{
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 235px 0;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+.main .left {
+    width: 50%;
+}
+
+.left .logo {
+    width: 100%;
+}
+.logo img{
+    width: 67%;
+    margin-left: -27px; 
+    margin-bottom: -15px;
+}
+
+.title span{
+    font-size: 30px;
+}
+
+.main .right {
+    width: 50%;
+}
+
+.top{
+    background-color: white;
+    width: 410px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px #e0dede;
+    margin-bottom: 15px;
+}
+
+.field{
+    width: 100%;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.loginButton{
+    width: 100%;
+}
+
+.loginButton button{
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.forgetPass{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.forgetPass a{
+    text-decoration: none;
+}
+
+.lineView{
+    width: 100%;
+    background-color: lightgray;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.createButton{
+   text-align: center;
+   width: 100%;
+}
+
+.createButton a{
+    background-color: #42b72a;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    width: 150px;
+    padding: 11px 0;
+    margin: 0 auto;
+}
+.bottom{
+    width: 410px;
+    text-align: center;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+@media (min-width:200px) and (max-width:500px){
+
+    section{
+        width: 100%;
+        background-color: white;
+        justify-content: center;
+        padding: 0;
+    }
+    .main{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .left{
+        width: 100% !important;
+  
+    }
+
+    .logo{
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo img{
+        margin: 0;
+        width: 30%;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .right{
+        width: 100% !important;
+
+    }
+
+    .top{
+        background-color: transparent;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .field input {
+        background-color: rgb(245, 246, 247);
+    }
+
+    .field input::placeholder{
+        font-size: 12px;
+    }
+    .createButton{
+        width: 100%;
+    }
+
+    .createButton a{
+        background-color: transparent;
+        border: 1px solid lightgray;
+        color: black;
+        font-size: 15px;
+        width: 70%;
+        font-weight: 400;
+    }
+
+    .bottom{
+        display: none;
+    }
+}
+
+@media (min-width:501px) and (max-width:768px){
+
+    section{
+        width: 100%;
+        background-color: white;
+        justify-content: center;
+        padding: 0;
+    }
+    .main{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .left{
+        width: 100% !important;
+  
+    }
+
+    .logo{
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo img{
+        margin: 0;
+        width: 30%;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .right{
+        width: 100% !important;
+
+    }
+
+    .top{
+        background-color: transparent;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .field input {
+        background-color: rgb(245, 246, 247);
+    }
+
+    .field input::placeholder{
+        font-size: 12px;
+    }
+    .createButton{
+        width: 100%;
+    }
+
+    .createButton a{
+        background-color: transparent;
+        border: 1px solid lightgray;
+        color: black;
+        font-size: 15px;
+        width: 70%;
+        font-weight: 400;
+    }
+
+    .bottom{
+        display: none;
+    }
+}
